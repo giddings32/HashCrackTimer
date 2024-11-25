@@ -114,7 +114,7 @@ def run_hashcat_benchmark(mode, device_id):
         else:
             # Standard command for non-Windows systems
             command = ["hashcat", "-b", "-d", device_id, "-m", mode]
-            print(command)
+            print(" ".join(command))
 
         result = subprocess.run(
             command if platform.system() != "Windows" else ["powershell", "-Command", command],
