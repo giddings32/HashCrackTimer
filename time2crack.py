@@ -213,7 +213,7 @@ def get_hash_type():
         return get_hash_type()
 
 def main():
-    print("Welcome to the Password Brute-Force Time Calculator!")
+    print("Welcome to Time2Crack, The Password Brute-Force Time Calculator!")
     characters = get_character_set()
     combinations = calculate_combinations(characters)
     device_id = get_device_selection()
