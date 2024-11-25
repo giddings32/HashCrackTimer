@@ -66,8 +66,6 @@ def get_device_selection():
             print("Error fetching device information:", result.stderr)
             return None
 
-        # print("Hashcat Device Info:\n", result.stdout)
-
         # Parse device information from the output
         devices = []
         lines = result.stdout.splitlines()
@@ -232,3 +230,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    input("\nPress Enter to exit...")
