@@ -1,6 +1,6 @@
-# HashCrackTimer
+# Time2Crack
 
-**HashCrackTimer** is a Python-based tool that estimates the time required to brute-force a password based on its character set, length, and hash type. It leverages `hashcat` to perform benchmarks and determine device-specific hash rates.
+**Time2Crack** is a Python-based tool that estimates the time required to brute-force a password based on its character set, length, and hash type. It leverages `hashcat` to perform benchmarks and determine device-specific hash rates.
 
 ## Features
 - User-friendly interactive prompts to specify:
@@ -17,7 +17,7 @@
 
 ## Prerequisites
 
-Before running **HashCrackTimer**, ensure the following are installed:
+Before running **Time2Crack**, ensure the following are installed:
 
 ### Python
 - **Python 3.7 or later**: [Download Python](https://www.python.org/downloads/)
@@ -38,5 +38,5 @@ Before running **HashCrackTimer**, ensure the following are installed:
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-repo/hashcracktimer.git
-   cd hashcracktimer
+   git clone https://github.com/your-repo/Time2Crack.git
+   cd Time2Crack
