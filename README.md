@@ -38,5 +38,5 @@ Before running **Time2Crack**, ensure the following are installed:
 
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/your-repo/Time2Crack.git
+   git clone https://github.com/giddings32/Time2Crack.git
    cd Time2Crack
